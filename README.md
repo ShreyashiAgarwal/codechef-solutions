@@ -1,7 +1,7 @@
 # codechef-solutions(beginner questions)
-......................................................................................................................................#
+
 1.Secret Recipe
-......................................................................................................................................#
+
 Chef and his competitor Kefa own two restaurants located at a straight road. The position of Chef's restaurant is X1, the position of Kefa's restaurant is X2.
 
 Chef and Kefa found out at the same time that a bottle with a secret recipe is located on the road between their restaurants. The position of the bottle is X3.
@@ -9,13 +9,13 @@ Chef and Kefa found out at the same time that a bottle with a secret recipe is l
 The cooks immediately started to run to the bottle. Chef runs with speed V1, Kefa with speed V2.
 
 Your task is to figure out who reaches the bottle first and gets the secret recipe (of course, it is possible that both cooks reach the bottle at the same time).
-#...................................................................................................................................#
+
 Input
 The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
 The first and only line of each test case contains five space-separated integers X1, X2, X3, V1 and V2.
 Output
 For each test case, print a single line containing the string "Chef" if Chef reaches the bottle first, "Kefa" if Kefa reaches the bottle first or "Draw" if Chef and Kefa reach the bottle at the same time (without quotes).
-#....................................................................................................................................#
+
 Example- Input
 3
 1 3 2 1 2
@@ -49,9 +49,9 @@ for i in range(T):
         print("Kefa")
 
 
-#......................................................................................................................................#
+#.................................#
 2.Fancy quotes
-#......................................................................................................................................
+
 
 "I don't have any fancy quotes." - meowcode
 
@@ -83,7 +83,7 @@ regularly fancy
 Explanation
 Example case 1: "i do not have any fancy quotes"
 Example case 2: The word "not" does not appear in the given quote
-#......................................................................................................................................#
+
 SOLUTION- 
 T = int(input())
 for i in range(T):
@@ -95,9 +95,9 @@ for i in range(T):
         print("regularly fancy")
         
         
- #......................................................................................................................................#
+ #...........................#
  3.Mahasena
-#......................................................................................................................................#
+
 
 Kattapa, as you all know was one of the greatest warriors of his time. The kingdom of Maahishmati had never lost a battle under him (as army-chief), and the reason for that was their really powerful army, also called as Mahasena.
 
@@ -126,7 +126,7 @@ Input:
 
 Output:
 NOT READY
-#......................................................................................................................................#
+
 SOLUTION- 
 N = int(input())
 arr = [int(x) for x in input().split()]
@@ -142,7 +142,6 @@ if(c_even>c_odd):
 else:
     print("NOT READY")
     
-  #......................................................................................................................................#
+  #....................#
   
-#......................................................................................................................................#
     
